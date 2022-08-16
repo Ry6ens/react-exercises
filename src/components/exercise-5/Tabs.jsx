@@ -16,7 +16,7 @@ class Tabs extends Component {
     const { activeIndex } = this.state;
     const { handleClick } = this;
     const title = [
-      "Первая вкладка 123",
+      "Первая вкладка 1234",
       "Вторая вкладка",
       "Третья вкладка",
       "Четвертая вкладка",
