@@ -16,7 +16,7 @@ class AccordionItem extends Component {
     const { isActive } = this.state;
 
     const className = isActive
-      ? `${styles.content.isExpanded}`
+      ? `${styles.content} ${styles.isExpanded}`
       : `${styles.content}`;
 
     return (
