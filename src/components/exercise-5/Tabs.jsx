@@ -6,9 +6,9 @@ class Tabs extends Component {
   state = { activeIndex: 0 };
 
   handleClick = (e, index) => {
-    console.log(e);
-    console.log(e.target.parentElement);
-    console.log(e.target.closest("div.tabs").find("tabs__content"));
+    // console.log(e);
+    // console.log(e.target.parentElement);
+    // console.log(e.target.closest("div.tabs").find("tabs__content"));
     this.setState({ activeIndex: index });
   };
 
@@ -16,7 +16,7 @@ class Tabs extends Component {
     const { activeIndex } = this.state;
     const { handleClick } = this;
     const title = [
-      "Первая вкладка 12",
+      "Первая вкладка",
       "Вторая вкладка",
       "Третья вкладка",
       "Четвертая вкладка",
