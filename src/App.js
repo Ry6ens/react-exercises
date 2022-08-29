@@ -7,6 +7,7 @@ import Products from "./components/exercise-4/Products";
 import Tabs from "./components/exercise-5/Tabs";
 import Form from "./components/exercise-6/Form";
 import ShopListProducts from "./components/exercise-7/ShopListProducts";
+import AccordionItemUp from "./components/exercise-8/AccordionItemUp";
 
 import products from "./components/exercise-4/product.json";
 
@@ -40,6 +41,10 @@ function App() {
       <li>
         07
         <ShopListProducts />
+      </li>
+      <li>
+        08
+        <AccordionItemUp />
       </li>
     </ul>
   );

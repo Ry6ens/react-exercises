@@ -16,18 +16,11 @@ class ShopListProducts extends Component {
   };
 
   totalPriceItems() {
-    const { products, total } = this.state;
-    console.log(products);
-
-    let sum = 0;
-
-    products.forEach((el) => {
-      return (sum += Number(el.price) * Number(el.quantity));
-    });
-
-    console.log(sum);
-    console.log(total);
-
+    // const { products, total } = this.state;
+    // let sum = 0;
+    // products.forEach((el) => {
+    //   return (sum += Number(el.price) * Number(el.quantity));
+    // });
     // this.setState(() => {});
   }
 
